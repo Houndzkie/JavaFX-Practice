@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="240.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PizzaOrderSystem_2.PizzaOrderSystemController">
+   <children>
+      <Label layoutX="87.0" layoutY="5.0" text="Size:" />
+      <Label layoutX="87.0" layoutY="56.0" text="Toppings:" />
+      <Label layoutX="87.0" layoutY="111.0" text="Extra Cheese:" />
+      <Button fx:id="calculateButton" layoutX="113.0" layoutY="173.0" mnemonicParsing="false" onAction="#calculate" text="Calculate Total" />
+      <Label fx:id="totalLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="146.0" layoutY="208.0" text="Label" />
+      <ChoiceBox fx:id="pizzaSizeChoice" layoutX="85.0" layoutY="23.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="pizzaToppingsChoice" layoutX="85.0" layoutY="74.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="extraCheeseChoice" layoutX="85.0" layoutY="129.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>
