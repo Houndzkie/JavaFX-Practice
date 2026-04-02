@@ -16,7 +16,7 @@ public class CharacterCounter extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("charactercounter-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+        Scene scene = new Scene(fxmlLoader.load(), 400, 300);
         primaryStage.setTitle("Character Counter");
         primaryStage.setScene(scene);
         primaryStage.show();

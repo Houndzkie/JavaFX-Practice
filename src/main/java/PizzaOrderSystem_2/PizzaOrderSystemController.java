@@ -21,9 +21,9 @@ public class PizzaOrderSystemController {
         pizzaToppingsChoice.getItems().addAll(toppingsChoice);
         extraCheeseChoice.getItems().addAll(cheeseChoice);
 
-        pizzaSizeChoice.setValue("Small");
-        pizzaToppingsChoice.setValue("Mushrooms");
-        extraCheeseChoice.setValue("No");
+        pizzaSizeChoice.setValue(sizeChoice[0]);
+        pizzaToppingsChoice.setValue(toppingsChoice[0]);
+        extraCheeseChoice.setValue(cheeseChoice[0]);
 
         totalLabel.setText("0");
     }

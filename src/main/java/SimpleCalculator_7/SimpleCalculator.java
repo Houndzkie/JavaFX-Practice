@@ -16,7 +16,7 @@ public class SimpleCalculator extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("simplecalculator-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+        Scene scene = new Scene(fxmlLoader.load(), 450, 240);
         primaryStage.setTitle("Simple Calculator");
         primaryStage.setScene(scene);
         primaryStage.show();

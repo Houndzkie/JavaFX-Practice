@@ -16,7 +16,7 @@ public class FoodOrderingSystem extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("foodorderingsystem-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+        Scene scene = new Scene(fxmlLoader.load(), 400, 300);
         primaryStage.setTitle("Foor Ordering System");
         primaryStage.setScene(scene);
         primaryStage.show();
