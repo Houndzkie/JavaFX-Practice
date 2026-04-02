@@ -16,8 +16,8 @@ public class PasswordValidator extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("passwordvalidator-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        primaryStage.setTitle("Password Validator");
+        Scene scene = new Scene(fxmlLoader.load(), 400, 240);
+        primaryStage.setTitle("Password Validation");
         primaryStage.setScene(scene);
         primaryStage.show();
     }

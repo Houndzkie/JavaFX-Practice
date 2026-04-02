@@ -16,7 +16,7 @@ public class SurveyProgressIndicator extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("surveyprogressindicator-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+        Scene scene = new Scene(fxmlLoader.load(), 350, 450);
         primaryStage.setTitle("Survey Progress Indicator");
         primaryStage.setScene(scene);
         primaryStage.show();
