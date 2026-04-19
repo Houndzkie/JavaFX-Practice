@@ -40,6 +40,7 @@ public class FoodOrderingSystemController {
         if (rb5.isSelected()) message += String.format("%.2f", total * 0.95);
         else if (rb10.isSelected()) message += String.format("%.2f", total * 0.9);
         else if (rb15.isSelected()) message += String.format("%.2f", total * 0.85);
+        else message += String.format("%.2f", total);
 
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("Order");
